@@ -21,7 +21,7 @@ jobs:
     if: github.actor != 'dependabot[bot]'
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       # This is the showcase usage of the action - every input it accepts
       # (see action.yml) is listed below, active or not. Anything this repo
