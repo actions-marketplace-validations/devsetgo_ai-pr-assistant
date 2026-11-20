@@ -21,7 +21,7 @@ jobs:
     if: github.actor != 'dependabot[bot]'
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       # action.yml names the last released image, which wouldn't include this
       # PR's changes, so build from this checkout instead.
